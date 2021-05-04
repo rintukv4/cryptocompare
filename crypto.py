@@ -9,7 +9,7 @@ def getPrice():
     return(x['DOGE']['INR'])
 
 account_sid = 'ACd90dd42a4b19c5f9366d48418b8ca81e' 
-auth_token = '9f5fd638e7e243a389daecb88c04a17f' 
+auth_token = 'PUT_YOUR_API_HERE' 
 client = Client(account_sid, auth_token) 
 
 while(True):
